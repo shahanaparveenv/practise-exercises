@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Full Pyramid</title>
+</head>
+<body>
+    <script>
+        let i,j,k,string="";
+        for(i=1; i<=7; ++i)
+    {
+        // Print spaces
+        for(j=i; j<=7; ++j)
+        {
+           string+=" "
+        }
+        for(j =1; j<=((2*i)-1); ++j)
+        {
+            //Print star only first and last row col
+            if(i==7 || j==1 || j==((2*i)-1))
+            {
+               string+="*"
+            }
+            else
+            {
+                string+=" "
+            }
+        }
+        // Print new line
+        string+="\n"
+    }
+            document.write(`<pre>${string}</pre>`)
+       
+    </script>
+</body>
+</html>

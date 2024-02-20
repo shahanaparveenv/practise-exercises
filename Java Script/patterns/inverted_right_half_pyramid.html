@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inverted Right Half Pyramid</title>
+</head>
+<body>
+    <script>
+        let i,j,string=""
+        for(i=1;i<=7;i++){
+            for(j=7;j>=i;j--){
+                string+="* "
+            }
+            string+="\n"
+        }
+        document.write(`<pre>${string}</pre>`)
+    </script>
+</body>
+</html>

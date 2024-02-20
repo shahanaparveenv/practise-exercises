@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average</title>
+</head>
+<body>
+    <input type="text" id="averagedemo" placeholder="enter the value of n">
+   
+    <button onclick="average()">Find average</button>
+    <p id="result"></p>
+ 
+    <script>
+//average of n numbers
+function average(){
+    let start=1;
+var end = document.getElementById("averagedemo").value;
+var total = 0;
+var count = (end - start) + 1
+var average = 0;
+//console.log("Average of Numbers between " + start + " and " + end + " is: " );
+for (start = start; start <= end; start++){
+    total = total + start;
+}
+average = total / count;
+// console.log("Total Sum: " + total);
+// console.log("No. of elements: " + count);
+// console.log("Average: " + average);
+document.getElementById("result").innerHTML=average
+}
+    </script>
+</body>
+</html>

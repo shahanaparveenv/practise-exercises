@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+<body>
+    <h1>Factorial</h1>
+    <input type="text" id="demo">
+    <button onclick="result()">Find factorial</button>
+    <p id="demo1"></p>
+    <script>
+        function result(){
+            let i;
+            let number;
+            let f=1;
+            
+            number=document.getElementById("demo").value
+            for(i=1;i<=number;i++){
+                f*=i;
+            }
+            document.getElementById("demo1").innerHTML=f;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Numbers from 1 to 100</title>
+</head>
+<body>
+    <button onclick="primenumber()">prime number 1 to 100</button>
+    <p id="demo"></p>
+    <script>
+        function primenumber(){
+            let ct=0,n=0,i=1,j=1;  
+            while (n < 25) {
+                j = 1;
+                ct = 0;
+                while (j <= i) {
+                    if (i % j == 0)
+                        ct++;
+                    j++;
+                }
+                if (ct == 2) {
+                    document.write(i + " ");
+                    n++;
+                }
+                i++;
+            }    
+
+        }
+    </script>
+    
+</body>
+</html>

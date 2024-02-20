@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="demo" placeholder="Enter num1">
+   <input type="text" id="demo1" placeholder="Enter num2">
+   <button onclick="swap()">Swap</button> 
+   <button onclick="swap1()">Swap w/o</button>
+   <input type="text" id="demo2"placeholder="Result">
+   <input type="text" id="demo3" placeholder="Result">
+  
+
+   <script>
+    function swap(){
+        let a,b,temp
+        a=Number(document.getElementById("demo").value)
+        b=Number(document.getElementById("demo1").value)
+        temp=a
+        a=b
+        b=temp
+        document.getElementById("demo2").value=a
+        document.getElementById("demo3").value=b
+    }
+    function swap1(){
+        let a,b
+        a=Number(document.getElementById("demo").value)
+        b=Number(document.getElementById("demo1").value)
+        a=a+b
+        b=a-b
+        a=a-b
+        document.getElementById("demo2").value=a
+        document.getElementById("demo3").value=b
+    }
+   </script>
+
+
+
+</body>
+</html>

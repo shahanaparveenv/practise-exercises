@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd or Even</title>
+</head>
+<body>
+    <input type="text" id="demo8"  placeholder="Enter number" style="border: none;">
+    <button onclick="even()">even or not</button>
+    <p id="demo9"></p>
+  
+    <script>
+        function even(){
+            let num=document.getElementById("demo8").value
+            if(num%2==0){
+                document.getElementById("demo9").innerHTML="even"
+            }
+            else{
+                document.getElementById("demo9").innerHTML="odd"
+            }
+        }
+    </script>
+</body>
+</html>

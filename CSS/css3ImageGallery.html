@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 70px;
+        }
+        .wrapper{
+           margin-top: 10px;
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr;
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+           
+        }
+        h1{
+        background-color: tomato;
+        width: 100%;
+        padding: 20px;
+        height: 70px;
+        text-align: center;
+       }
+        img{
+            height: 300px;
+            width: 400px;
+            opacity: 0.7;
+            width: 100%;
+        }
+        .grid-item{
+            width: 100%;
+            border: 3px solid red;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 70px;
+            border-top-left-radius: 90px;
+            border-top-right-radius: 50px;
+            margin: 10px;
+            box-shadow: 12px 16px 18px blue;
+            background-size: cover;
+            overflow: hidden;
+            
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="wrapper">
+        
+        <div class="grid-item"> <img src="assets/g1.jpg" alt=""> </div>
+        <div class="grid-item"><img src="assets/g2.jpg" alt=""></div>
+        <div class="grid-item"><img src="assets/g3.jpg" alt=""></div>
+        <div class="grid-item"><img src="assets/g4.jpg" alt=""></div>
+        <div class="grid-item"><img src="assets/g5.jpg" alt=""></div>
+        <div class="grid-item"><img src="assets/g6.jpg" alt=""></div>
+        <div class="grid-item"><img src="assets/g7.jpg" alt=""></div>
+        <div class="grid-item"><img src="assets/g8.jpg" alt=""></div>
+        <div class="grid-item"><img src="assets/g9.jpg" alt=""></div>
+        <div class="grid-item"> <img src="assets/g10.jpg" alt=""> </div>
+        <div class="grid-item"><img src="assets/g11.jpg" alt=""></div>
+        <div class="grid-item"><img src="assets/g12.jpg" alt=""></div>
+        <div class="grid-item"><img src="assets/3.jpg" alt=""></div>
+        <div class="grid-item"><img src="assets/g14.jpg" alt=""></div>
+        <div class="grid-item"><img src="assets/g15.jpg" alt=""></div>
+    </div>  
+</body>
+</html>

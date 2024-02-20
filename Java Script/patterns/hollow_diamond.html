@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Diamond</title>
+</head>
+<body>
+    <script>
+        let i,j,k,string="";
+        for( i=1; i<=7; i++)  
+  {  
+     for( j=i; j<=7; j++)  
+     {  
+        string+=" "
+     }  
+     for( k=1; k<=2*i-1; k++)  
+     {  
+       if(k==1 || k==(2*i-1)) {string+="*"}  
+       else {string+=" ";}  
+     }  
+     string+="\n";  
+  }  
+  
+  for( i=6; i>=1; i--)  
+  {  
+     for( j=7; j>=i; j--)  
+     {  
+        string+=" "  
+     }  
+     for( k=1; k<=2*i-1; k++)  
+     {  
+       if(k==1 || k==2*i-1) {string+="*"}  
+       else{
+        string+=" "
+       }  
+     }  
+     string+="\n";  
+  }  
+  
+            document.write(`<pre>${string}</pre>`)
+       
+    </script>
+</body>
+</html>

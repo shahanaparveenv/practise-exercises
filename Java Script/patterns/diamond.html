@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond</title>
+</head>
+<body>
+    <script>
+        let i,j,k,string="";
+        for( i=1;i<=7;i++){
+            for(j=6;j>=i;j--){
+                
+                string+=" "
+            }
+            for(k=1;k<=i;k++){
+                string+="* "
+            }
+            string+="\n"
+           //document.write("<br>")
+            }
+            for(i=1;i<=6;i++){
+            for(j=1;j<=i;j++){
+                string+=" "}
+                for(k=6;k>=i;k--){
+                    string+="* "
+                }
+               
+            
+            string+="\n"
+        }
+            document.write(`<pre>${string}</pre>`)
+       
+    </script>
+</body>
+</html>

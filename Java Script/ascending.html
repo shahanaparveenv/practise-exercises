@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descending order</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+       // var arr=["15","34","3","11","0","23","987"];
+       var arr=[1,11,3,31,0,23,987];
+        for (let i = 0; i < arr.length; ++i) {
+  for (let j = i + 1; j < arr.length; ++j) {
+    if (arr[j] < arr[i]) {
+      temp = arr[j];
+      arr[j] = arr[i];
+      arr[i] = temp;
+    }
+  }
+}
+
+        document.getElementById("demo").innerHTML=arr;
+    </script>
+</body>
+</html>

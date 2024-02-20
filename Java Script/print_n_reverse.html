@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print & Reverse</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+       //print array elements
+       let i;
+         var array2 = ["cat","dog","cow","tiger","lion"];
+        len=array2.length;
+        var text=""
+        for(i=0;i<len;i++){
+            text+=array2[i] + " "
+        }
+        document.getElementById("demo").innerHTML=text;
+    
+        //reverse
+        var text1=""
+        for(i=len-1;i>=0;i--){
+            text1+=array2[i] + " "
+        }
+        document.getElementById("demo1").innerHTML=text1;
+    
+
+    </script>
+</body>
+</html>

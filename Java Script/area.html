@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area</title>
+</head>
+<body>
+    <input type="text" id="demo"  placeholder="Enter Length" style="border: none;">
+    <input type="text" id="demo1"  placeholder="Enter Breadth" style="border: none;">
+    <button onclick="area()">Area of Rectangle</button>
+    <p id="demo3"></p>
+
+    <input type="text" id="demo5"  placeholder="Enter side of square" style="border: none;">
+    <button onclick="area1()">Area of square</button>
+    <p id="demo4"></p>
+    <script>
+        function area(){
+
+let l,b,area;
+l=document.getElementById("demo").value
+b=document.getElementById("demo1").value
+area = l*b
+document.getElementById("demo3").innerHTML=area
+}
+
+
+//area of square
+function area1(){
+
+let l,area;
+l=document.getElementById("demo5").value
+area = l*l
+document.getElementById("demo4").innerHTML=area
+}
+    </script>
+</body>
+</html>
