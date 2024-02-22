@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+.top-header{
+    width: 100%;
+    height: 30px;
+    background-color: #3c8031;
+    display: block;
+}
+
+.content{
+    display: flex;
+    margin-left: 70px;
+    width: 80%;
+    justify-content: space-between;
+   
+}
+.left-content{
+    font-size: 12px;
+    width: fit-content;
+  }
+.right-content{
+    width: fit-content;
+}
+.nav-list .list{
+    margin-left:7px;
+    font-size: 12px;
+}
+span{
+    color: white;
+    margin-left: 5px;
+}
+#search{
+    width: 400px;
+    height: 38px;
+    float: left;
+    margin-left: 80px;
+    font-size: 13px;
+    color: #ccc;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+
+#searchbtn{
+    content: "\f002";
+    border: none;
+    background: none;
+    color: #3c8031;
+    margin-top: 20px;
+   
+}
+#userbtn{
+    margin-top: 15px;
+    height: 38px;
+    background: none;
+    border: none;
+}
+.mlist{
+    color: #7755A2;
+    size: 26px 26px;
+    font-weight: 600;
+   margin-left: 40px;
+}
+.mlist:hover{
+    background-color: #d7d6d6;
+}
+a :hover{
+    background-color: #ccc;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+#notification .notification-content > div {
+    display: table-cell;
+    position: relative;
+    width: 32%;
+    padding: 6px 20px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #666;
+    text-align: left;
+}
+#notification .notification-content > div:before {
+    position: absolute;
+    width: 6px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    content: ' ';
+    border-left: 1px solid #7755A2;
+}
+#notification .notification-content > div:first-child:before {
+    display: none;
+}
+#notification .notification-content .shipping {
+    background: url('assets/vip.png') no-repeat left center;
+    padding-left: 72px;
+    background-position: 24px 4px;
+    background-size: 42px 42px;
+}
+#notification .notification-content .delivery {
+    background: url('assets/early-delivery.png') no-repeat left center;
+    padding-left: 80px;
+    background-position: 20px 0;
+    background-size: 48px 48px;
+}
+#notification .notification-content .info {
+    background: url('assets/download-app.png') no-repeat left center;
+    padding-left: 86px;
+    background-position: 24px 4px;
+    background-size: 44px 44px;
+}
+#notification .notification-content .info a {
+    color: #333;
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration: underline;
+}
+
+#btn_category{
+    background-color: #3c8031;
+    color: white;
+    height: 40px;
+    width:auto;
+    border: none;
+    font-size: 70%;
+    font-weight: bold;
+    
+}
+
