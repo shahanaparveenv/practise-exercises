@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fresh To Home - Order Fresh Fish, Chicken and Mutton Online</title>
     <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/fontawesome.css">
     <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/brands.css">
     <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/solid.css">
@@ -11,26 +11,7 @@
     <link rel="icon" type="image/x-icon" href="assets/logo-3.webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <style>
-      .grid-container {
-        text-align: center;
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        margin-left: 10px;
-
-      }
-      .card {
-        background-color: rgba(255, 255, 255, 0.8);
-        border: 1px solid rgba(184, 181, 181, 0.8);
-        margin-top: 20px;
-        font-size: 17px;
-        text-align: center;
-      }
-       #btn_category:hover{
-        background-color: #7755A2;
-      }
-      
-      </style>
+   
   </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -69,8 +50,8 @@
         <div style="width: 30%; margin-left: 20%; display: flex;"> 
           <button id="userbtn" type="submit" ><img src="assets/profile-icon-01.png" style="height: 38px;"></img></button>
           <button id="userbtn" type="submit" ><img src="assets/cart-icon-04.png" style="height: 38px;"></img></button>
-         <div style="background-color: red; width: fit-content; height: fit-content;border-radius: 50%; color: #ffffff; margin-right: 30%;">
-        O</div>
+         <div style="align-content: center; background-color: red;height: 17px; width: 15px;margin-top: 12px;  position: relative;z-index:13; right: 13%; border-radius: 50%; color: #ffffff; ">
+         <p style="text-align: center;padding-bottom:11px;">0</p></div>
          
        
         </div>
@@ -96,7 +77,7 @@
     <!-- carousal -->
     <div style="margin-left: 10%; margin-right: 10%; width: 80%; height: 400px; border: #c6c2c2;">
     <div id="carouselExample" class="carousel slide" >
-      <div class="carousel-inner" data-ride="carousel" data-interval="2000" style="border-radius: 10px;">
+      <div class="carousel-inner" data-ride="carousel" data-interval="1000" style="border-radius: 10px;">
         <div class="carousel-item ">
           <img height="400px" src="assets/f2.webp" class="d-block w-100 h-100" alt="...">
         </div>
@@ -146,90 +127,91 @@
 
 
 <div >
-  <h4 style="text-align: center; margin-top: 20px;">Shop by Category</h4>
+  <h4 style="text-align: center; padding-top: 30px;">Shop by Category</h4>
 </div>
-<div style="display: grid; width: 86%; margin-left: 7%; margin-right: 7%; margin-top: 20px;" class="grid-container" > 
+<div  class="grid-container" > 
   <div class="card" style="width: 15rem;  ">
-    <img class="card-img-top" src="assets/fish.webp" alt="Card image cap" style="height: 200px; width: 200px; margin-left: 15px;">
+    <img class="card-img-top" src="assets/fish.webp" alt="Card image cap" >
     <div class="card-body">
       <h5 class="card-title">Fish & Sea Food</h5>
-      <p class="card-text" style="color: grey; font-size: 70%;" >Marine Fish, Freshwater Fish,Shell Fish</p>
-      <button id="btn_category">Shop Now ></button>
+      <p class="card-text">Marine Fish, Freshwater Fish, <br> Shell Fish</p>
+      <button class="btn_category">Shop Now<i class="fa-solid fa-caret-right" style="color: #ffffff; margin-left: 5px;"></i></button>
     </div>
   </div>
   <div class="card" style="width: 15rem;  ">
-    <img class="card-img-top" src="assets/poultry.webp" alt="Card image cap" style="height: 200px; width: 200px; margin-left: 15px;">
+    <img class="card-img-top" src="assets/poultry.webp" alt="Card image cap" >
     <div class="card-body">
       <h5 class="card-title">Poultry</h5>
-      <p class="card-text" style="color: grey;font-size: 70%;" >Marine Fish, Freshwater Fish,Shell Fish</p>
-      <button id="btn_category">Shop Now ></button>
+      <p class="card-text">Chicken, Duck, Quail and more. <br> Halal Cut.</p>
+      <button class="btn_category">Shop Now<i class="fa-solid fa-caret-right" style="color: #ffffff; margin-left: 5px;"></i></button>
     </div>
   </div>
   <div class="card" style="width: 15rem;  ">
-    <img class="card-img-top" src="assets/meat.webp" alt="Card image cap" style="height: 200px; width: 200px; margin-left: 15px;">
+    <img class="card-img-top" src="assets/meat.webp" alt="Card image cap" >
     <div class="card-body">
       <h5 class="card-title">Meats</h5>
-      <p class="card-text" style="color: grey;font-size: 70%;" >Marine Fish, Freshwater Fish,Shell Fish</p>
-      <button id="btn_category">Shop Now ></button>
+      <p class="card-text">Premium Meats. Tender and low <br>fat. Halal cut.</p>
+      <button class="btn_category">Shop Now<i class="fa-solid fa-caret-right" style="color: #ffffff; margin-left: 5px;"></i></button>
     </div>
   </div>
   <div class="card" style="width: 15rem;  ">
-    <img class="card-img-top" src="assets/rtc.webp" alt="Card image cap" style="height: 200px; width: 200px; margin-left: 15px;">
+    <img class="card-img-top" src="assets/rtc.webp" alt="Card image cap" >
     <div class="card-body">
-      <h5 class="card-title">Ready To Cook</h5>
-      <p class="card-text" style="color: grey;font-size: 70%;" >Marine Fish, Freshwater Fish,Shell Fish</p>
-      <button id="btn_category">Shop Now ></button>
+      <h5 class="card-title">Ready to Cook</h5>
+      <p class="card-text">Samosas, Cutlets, Sausages, <br>Patties, Curries and much more.</p>
+      <button class="btn_category">Shop Now<i class="fa-solid fa-caret-right" style="color: #ffffff; margin-left: 5px;"></i></button>
     </div>
   </div>
   <div class="card" style="width: 15rem;  ">
-    <img class="card-img-top" src="assets/combo.webp" alt="Card image cap" style="height: 200px; width: 200px; margin-left: 15px;">
+    <img class="card-img-top" src="assets/combo.webp" alt="Card image cap" >
     <div class="card-body">
       <h5 class="card-title">Combo Packs</h5>
-      <p class="card-text" style="color: grey;font-size: 70%;" >Marine Fish, Freshwater Fish,Shell Fish</p>
-      <button id="btn_category">Shop Now ></button>
+      <p class="card-text">Pick your favourite combos.</p>
+      <button class="btn_category">Shop Now<i class="fa-solid fa-caret-right" style="color: #ffffff; margin-left: 5px;"></i></button>
     </div>
   </div>
   <div class="card" style="width: 15rem;  ">
-    <img class="card-img-top" src="assets/fnv.webp" alt="Card image cap" style="height: 200px; width: 200px; margin-left: 15px;">
+    <img class="card-img-top" src="assets/fnv.webp" alt="Card image cap" >
     <div class="card-body">
       <h5 class="card-title">The Farmer's Market</h5>
-      <p class="card-text" style="color: grey;font-size: 70%;" >Marine Fish, Freshwater Fish,Shell Fish</p>
-      <button id="btn_category">Shop Now ></button>
+      <p class="card-text">Fresh Fruits & Veggies</p>
+      <button class="btn_category">Shop Now<i class="fa-solid fa-caret-right" style="color: #ffffff; margin-left: 5px;"></i></button>
     </div>
   </div>
   <div class="card" style="width: 15rem;  ">
-    <img class="card-img-top" src="assets/bakery.webp" alt="Card image cap" style="height: 200px; width: 200px; margin-left: 15px;">
+    <img class="card-img-top" src="assets/bakery.webp" alt="Card image cap" >
     <div class="card-body">
       <h5 class="card-title">Bakery</h5>
-      <p class="card-text" style="color: grey;font-size: 70%;" >Marine Fish, Freshwater Fish,Shell Fish</p>
-      <button id="btn_category">Shop Now ></button>
+      <p class="card-text">Desi Bread and more.</p>
+      <button class="btn_category">Shop Now<i class="fa-solid fa-caret-right" style="color: #ffffff; margin-left: 5px;"></i></button>
     </div>
   </div>
   <div class="card" style="width: 15rem;  ">
-    <img class="card-img-top" src="assets/pantry.webp" alt="Card image cap" style="height: 200px; width: 200px; margin-left: 15px;">
+    <img class="card-img-top" src="assets/pantry.webp" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Pantry</h5>
-      <p class="card-text" style="color: grey;font-size: 70%;" >Marine Fish, Freshwater Fish,Shell Fish</p>
-      <button id="btn_category">Shop Now ></button>
+      <p class="card-text">Dips and Spreads.</p>
+      <button class="btn_category">Shop Now<i class="fa-solid fa-caret-right" style="color: #ffffff; margin-left: 5px;"></i></button>
+    </button>
     </div>
   </div>
-  <div class="card" style="width: 15rem;  ">
-    <img class="card-img-top" src="assets/flowers.webp" alt="Card image cap" style="height: 200px; width: 200px; margin-left: 15px;">
-    <div class="card-body">
-      <h5 class="card-title">Seasonal</h5>
-      <p class="card-text" style="color: grey;font-size: 70%;" >Marine Fish, Freshwater Fish,Shell Fish</p>
-      <button id="btn_category">Shop Now ></button>
+ <div class="card" style="width: 15rem;  ">
+      <img class="card-img-top" src="assets/flowers.webp" alt="Card image cap" >
+      <div class="card-body">
+        <h5 class="card-title">Seasonal</h5>
+        <p class="card-text">Bouquets, Gift Baskets and more.</p>
+        <button class="btn_category">Shop Now<i class="fa-solid fa-caret-right" style="color: #ffffff; margin-left: 5px;"></i></button>
+      </div>
+    </div>
+    <div class="card" style="width: 15rem;  ">
+      <img class="card-img-top" src="assets/fillet.webp" alt="Card image cap" >
+      <div class="card-body">
+        <h5 class="card-title">Steaks & Fillets</h5>
+        <p class="card-text">Fresh Steaks and Fillets</p>
+        <button class="btn_category">Shop Now<i class="fa-solid fa-caret-right" style="color: #ffffff; margin-left: 5px;"></i></button>
+      </div>
     </div>
   </div>
-  <div class="card" style="width: 15rem;  ">
-    <img class="card-img-top" src="assets/fillet.webp" alt="Card image cap" style="height: 200px; width: 200px; margin-left: 15px;">
-    <div class="card-body">
-      <h5 class="card-title">Steaks & Fillets</h5>
-      <p class="card-text" style="color: grey;font-size: 70%;" >Marine Fish, Freshwater Fish,Shell Fish</p>
-      <button id="btn_category">Shop Now ></button>
-    </div>
-  </div>
-</div>
   
 </body>
 </html>
